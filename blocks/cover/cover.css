@@ -1,0 +1,41 @@
+.cover{
+    position: relative;
+    height: calc(100vw / 1.6);
+    max-height: 740px;
+
+    background-image: linear-gradient(rgba(42, 44, 47,0.3),rgba(42, 44, 47,0.3)),url("../../images/cover_bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1024px){
+    .cover{
+        margin: 92px auto 0;
+        width: calc(100% - 96px);
+    }
+}
+@media screen and (max-width: 1024px){
+    .cover{
+        margin-top: 92px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
+    .cover{
+        margin-top: 90px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 320px){
+    .cover{
+        margin-top: 66px;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
