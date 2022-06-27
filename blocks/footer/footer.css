@@ -38,7 +38,8 @@
         margin: 0 auto 0 16px;
 
         max-width: 186px;
-        height: 310px;
+
+        gap: 38px;
 
         display: flex;
         flex-direction: column;

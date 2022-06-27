@@ -1,7 +1,5 @@
 .cover{
     position: relative;
-    height: calc(100vw / 1.6);
-    max-height: 740px;
 
     background-image: linear-gradient(rgba(42, 44, 47,0.3),rgba(42, 44, 47,0.3)),url("../../images/cover_bg.jpg");
     background-size: cover;
@@ -12,6 +10,7 @@
     .cover{
         margin: 92px auto 0;
         width: calc(100% - 96px);
+
     }
 }
 @media screen and (max-width: 1024px){

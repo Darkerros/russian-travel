@@ -10,18 +10,21 @@
     .places__card{
         grid-row-gap: 48px;
         grid-column-gap: 40px;
+        grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
     }
 }
 @media screen and (max-width: 1024px){
     .places__card{
         grid-row-gap: 48px;
         grid-column-gap: 32px;
+        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
     }
 }
 @media screen and (max-width: 768px){
     .places__card{
         grid-row-gap: 48px;
         grid-column-gap: 28px;
+        grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
     }
 }
 @media screen and (max-width: 630px) {
@@ -33,6 +36,7 @@
             "paragraphs";
         grid-row-gap: 32px;
         align-self: center;
+        grid-template-columns: 100%;
     }
 
 }
