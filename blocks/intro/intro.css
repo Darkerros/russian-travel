@@ -6,16 +6,12 @@
     .intro{
         padding-top: 114px;
         margin: 0 0 0 148px;
-
-        max-width: 690px;
     }
 }
 @media screen and (max-width: 1024px) {
     .intro{
         padding-top: 92px;
         margin: 0 0 0 48px;
-
-        max-width: 690px;
     }
 }
 @media screen and (max-width: 768px) {

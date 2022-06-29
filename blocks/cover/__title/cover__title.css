@@ -4,21 +4,18 @@
     font-style: normal;
     font-weight: 900;
     text-align: center;
+
+    font-size: 72px;
+    line-height: 76px;
 }
 @media screen and (min-width: 1024px) {
     .cover__title{
         padding-top: 245px;
-
-        font-size: 72px;
-        line-height: 76px;
     }
 }
 @media screen and (max-width: 1024px) {
     .cover__title{
         padding-top: 195px;
-
-        font-size: 72px;
-        line-height: 76px;
     }
 }
 @media screen and (max-width: 768px) {
