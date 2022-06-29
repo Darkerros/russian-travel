@@ -10,19 +10,19 @@
 @media screen and (min-width: 1024px){
     .places__card{
         grid-column-gap: 40px;
-        grid-template-columns: minmax(340px, 460px) minmax(456px, 484px);
+        grid-template-columns: minmax(300px, 460px) minmax(300px, 484px);
     }
 }
 @media screen and (max-width: 1024px){
     .places__card{
         grid-column-gap: 32px;
-        grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+        grid-template-columns: minmax(300px, 440px) minmax(300px, 456px);
     }
 }
 @media screen and (max-width: 768px){
     .places__card{
         grid-column-gap: 28px;
-        grid-template-columns: minmax(280px, 340px) minmax(288px, 352px);
+        grid-template-columns: minmax(250px, 340px) minmax(258px, 352px);
     }
 }
 @media screen and (max-width: 630px) {
